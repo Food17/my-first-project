@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+
+    <!-- Google Font API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="hero">
+
+        <h1>Hair Magic</h1>
+        <p>Unlock the Secrets to Lucious Locks and Radiant Hair with Hair Hive</p>
+        <a href=""><button>Discover More</button></a>
+    </div>
+
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()" class="cancel"><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></i>
+                    </a>
+                </li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Treatments.html">Treatments</a></li>
+                <li><a href="Remedies.html">Remedies</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#" class="logo">Hair Hive</a></li>
+                <li class="hideOnMobile"><a href="Home.html">Home</a></li>
+                <li class="hideOnMobile"><a href="Products.html" class="home">Products</a></li>
+                <li class="hideOnMobile"><a href="Treatments.html">Treatments</a></li>
+                <li class="hideOnMobile"><a href="Remedies.html">Remedies</a></li>
+                <li class="hideOnMobile"><a href="Blog.html">Blog</a></li>
+                <li class="hideOnMobile"><a href="Contact.html">Contact</a></li>
+                <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="reme-head">
+        <h1>Remedies</h1>
+        <p>Check our wide range of easy home Remedies</p>
+    </div>
+
+    <main>
+
+
+        <section class="remedy" id="hair-loss">
+            <img src="ima" alt="">
+            <h2>Hair Loss</h2>
+            <p>Apply a mixture of coconut oil and onion juice to the scalp twice a week.</p>
+            <button class="show-more">Show More</button>
+            <div class="more-info">
+                <p>Massaging the scalp with warm coconut oil helps improve blood circulation, while onion juice contains
+                    sulfur, which promotes hair growth.</p>
+                <p>Leave the mixture on for at least 30 minutes before washing it off with a mild shampoo.</p>
+            </div>
+        </section>
+        <section class="remedy" id="graying">
+            <img src="images/graying.webp" alt="">
+            <h2>Graying</h2>
+            <p>Massage your scalp with amla (Indian gooseberry) oil regularly.</p>
+            <button class="show-more">Show More</button>
+            <div class="more-info">
+                <p>Amla oil is rich in antioxidants and vitamin C, which helps prevent premature graying of hair and
+                    promotes hair growth.</p>
+                <p>Apply a small amount of amla oil to the scalp and hair, leave it on overnight, and wash it off the
+                    next morning.</p>
+            </div>
+        </section>
+        <!-- Other sections for different hair problems -->
+    </main>
+
+
+
+    <footer>
+        <p>2024 Hair Hive. All Rights Reserved</p>
+    </footer>
+
+    <!-- Boostrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="Home.js"></script>
+</body>
+
+</html>

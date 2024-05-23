@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Hive</title>
+    <link rel="stylesheet" href="Home.css">
+
+    <!-- Google Font API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hideSidebar()" class="cancel"><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></i>
+                    </a>
+                </li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Treatments.html">Treatments</a></li>
+                <li><a href="Remedies.html">Remedies</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#" class="logo">Hair Hive</a></li>
+                <li class="hideOnMobile"><a href="Home.html">Home</a></li>
+                <li class="hideOnMobile"><a href="Products.html" class="home">Products</a></li>
+                <li class="hideOnMobile"><a href="Treatments.html">Treatments</a></li>
+                <li class="hideOnMobile"><a href="Remedies.html">Remedies</a></li>
+                <li class="hideOnMobile"><a href="Blog.html">Blog</a></li>
+                <li class="hideOnMobile"><a href="Contact.html">Contact</a></li>
+                <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="hero">
+
+        <h1>Hair Magic</h1>
+        <p>Unlock the Secrets to Lucious Locks and Radiant Hair with Hair Hive</p>
+        <a href=""><button>Discover More</button></a>
+    </div>
+
+
+    <!-- About Section -->
+    <div class="about">
+        <div class="about-text">
+            <h1>About Hair Hive</h1>
+            <p>Welcome to Hair Hive, where we weave magic into <br>
+                every strand! Our mission is to revolutionize the <br>
+                way you care for your hair.
+                <br><br>
+                Explore a world of treatments, remedies, and top-notch equipment to elevate <br> your hair care routine
+                to
+                new heights.
+                <br><br>
+                Join us on this hair-raising journey and say <br>
+                goodbye to bad hair days forever!
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="images/hairCare3.webp" alt="">
+        </div>
+    </div>
+
+    <!-- Pricing -->
+    <section class="Pricing">
+        <div class="price-header">
+            <h1>Pricing Plans</h1>
+        </div>
+
+        <div class="Price-cards">
+            <div class="first-card">
+                <div class="first-detail">
+                    <h1>Basic Care</h1>
+                    <p><strong>$29</strong>/One-Time</p>
+                </div>
+                <div class="fi-info">
+                    <p>Get essential hair <br>care tips and tricks <br>to kickstart your <br>hair <br>
+                        transformation.</p>
+
+                    <a href=""><button>contact us</button></a>
+                </div>
+
+            </div>
+            <div class="sec-card">
+                <div class="sec-detail">
+                    <h1>Premium <br> Package</h1>
+                    <p><strong>$49</strong>/One-Time</p>
+                </div>
+                <div class="s-info">
+                    <p>Unlock exclusive <br>access to advanced <br>treatments and <br>premium hair <br>
+                        products for a <br>luxurious <br>experience.</p>
+
+                    <a href=""><button>contact us</button></a>
+                </div>
+
+            </div>
+            <div class="third-card">
+                <div class="third-detail">
+                    <h1>Ultimate <br>Bliss</h1>
+                    <p><strong>$79</strong>/One-Time</p>
+                </div>
+                <div class="t-info">
+                    <p>Indulge in a <br>complete hair care <br>packaged with <br>personalized <br>
+                        consultations and <br>VIP treatment.</p>
+
+                    <a href=""><button>contact us</button></a>
+                </div>
+
+            </div>
+            <div class="fourth-card">
+                <div class="fourth-detail">
+                    <h1>Coustomized <br>Solutions</h1>
+                    <p><strong>Custom <br>Quote</strong>/One-Time</p>
+                </div>
+                <div class="f-info">
+                    <p>Tailored solutions <br>for your unique hair needs. <br>Contact us <br>for a personalized
+                        <br>plan.
+                    </p>
+
+                    <a href=""><button>contact us</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Raving -->
+    <section class="Raving">
+        <div class="rave-header">
+            <h1>Raving</h1>
+        </div>
+
+        <div class="raving-items">
+            <div class="first-rave">
+                <p>Best hair care site ever! My locks <br> have never looked better thanks to <br> their tips and
+                    products.</p>
+                <img src="images/images4.jpeg" alt="">
+                <h4>Samanta</h4>
+            </div>
+            <div class="first-rave">
+                <p>Incredible selection of hair <br> equipment. I found everything I <br> needed for my salon at
+                    unbeatable <br> prices!</p>
+                <img src="images/images4.jpeg" alt="">
+                <h4>Micheal</h4>
+            </div>
+            <div class="first-rave">
+                <p>The comparison section saved me <br> so much time and money. I got the <br> top-notch equipment
+                    without <br> breaking the bank!</p>
+                <img src="images/images4.jpeg" alt="">
+                <h4>Emily</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Intro 2 -->
+    <section class="add-info">
+        <div class="sec">
+            <img src="images/image5.jpeg" alt="">
+            <h1>Transform Your Hair <br> Today</h1>
+            <p>Join us on journey to healthier, more vibrant hair. Your crowning glory <br> awaits!</p>
+
+            <a href=""><button>Get Started</button></a>
+        </div>
+
+    </section>
+
+    <section class="Statistics">
+        <div class="stats">
+            <div class="stat">
+                <h1>100K+</h1>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat">
+                <h1>500+</h1>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat">
+                <h1>500+</h1>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase -->
+    <section>
+        <div class="show-case">
+            <div class="case">
+                <img src="images/image5.jpeg" alt="">
+                <h2>Treatment <br> Galore</h2>
+                <p>Explore a variety of <br> treatments to solve all your <br> hair problems</p>
+            </div>
+            <div class="case">
+                <a href="">
+                    <img src="images/image5.jpeg" alt="">
+                    <h2>Equipment <br> Showcase</h2>
+                    <p>Explore a variety of <br> treatments to solve all your <br> hair problems</p>
+                </a>
+
+            </div>
+            <div class="case">
+                <img src="images/image5.jpeg" alt="">
+                <h2>Latest <br> Updates</h2>
+                <p>Explore a variety of <br> treatments to solve all your <br> hair problems</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Hair Buzz -->
+    <section class="Hair-buzz">
+        <div class="buz-head">
+            <h1>Hair Buzz</h1>
+        </div>
+
+        <div class="Buzzez">
+
+            <div class="buzz">
+                <img src="images/image6.jpg" alt="">
+                <h2>Revolutionary <br> Hair Solutions <br> Unveilded</h2>
+                <h4>May 9, 2024</h4>
+                <p>Discover the latest <br> breakthroughs in hair care <br> technology that will <br> change your hair
+                    game <br> forever.</p>
+
+                <a href=""><button>Explore</button></a>
+            </div>
+
+            <div class="buzz">
+                <img src="images/image6.jpg" alt="">
+                <h2>DIY Hair <br> Remedies for <br> All</h2>
+                <h4>May 9, 2024</h4>
+                <p>Say goodbye to hair<br> problems with our easy <br> and effective home <br> remedies that actually
+                    <br> work wonders.
+                </p>
+
+                <a href=""><button>Explore</button></a>
+            </div>
+
+            <div class="buzz"><img src="images/image6.jpg" alt="">
+                <h2>Gear Up with <br> Top Tools</h2>
+                <h4>May 9, 2024</h4>
+                <p>Get the lowdownon the <br> must have hair care <br> equipment and products <br> that will elevate
+                    your <br> styling game.
+
+                </p>
+
+                <a href=""><button>Explore</button></a>
+            </div>
+
+            <div class="buzz"><img src="images/image6.jpg" alt="">
+                <h2>Battle of the <br> Brands</h2>
+                <h4>May 9, 2024</h4>
+                <p>Compare the best hair <br> care equipment from <br> leading brands to find the <br> perfect match for
+                    your <br> needs.</p>
+
+                <a href=""><button>Explore</button></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Raving -->
+    <section>
+        <div class="testimonials">
+            <div class="testimonial-intro">
+                <h1>RAVING</h1>
+            </div>
+
+            <div class="all">
+
+                <div class="wrapper">
+                    <i id="right" class="fa-solid fa-angle-left"></i>
+                    <ul class="carousel">
+                        <li class="card">
+                            <div class="img"><img src="images/image1.jpeg" alt="" draggable="false"></div>
+                            <h3>Samanta</h3>
+
+                            <p>
+                                Best hair care site ever! My locks <br> have never looked better thanks to <br> their
+                                tips and
+                                products
+                            </p>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="images/image2.jpeg" alt="" draggable="false"></div>
+                            <h3>Emily</h3>
+                            <p>
+                                Incredible selection of hair <br> equipment. I found everything I <br> needed for my
+                                salon at
+                                unbeatable <br> prices!
+                            </p>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="images/image3.jpeg" alt="" draggable="false"></div>
+                            <h3>Micheal</h3>
+                            <p>
+                                The comparison section saved me <br> so much time and money. I got the <br> top-notch
+                                equipment
+                                without <br> breaking the bank!
+                            </p>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="images/images4.jpeg" alt="" draggable="false"></div>
+                            <h3>David Guetter</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Maecenas dictum vel
+                            </p>
+                        </li>
+                        <li class="card">
+                            <div class="img"><img src="images/image5.jpeg" alt="" draggable="false"></div>
+                            <h3>Micheal</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Maecenas dictum vel
+                            </p>
+                        </li>
+                    </ul>
+                    <i id="left" class="fa-solid fa-angle-right"></i>
+
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- Socials -->
+    <section>
+        <div class="soc">
+            <div class="social-head">
+                <h1>Stay Connected</h1>
+            </div>
+            <div class="socials">
+                <a href=""><i class="fa-brands fa-facebook social-one"></i></a>
+                <a href=""><i class="fa-brands fa-x-twitter social-two"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin social-three"></i></a>
+                <a href=""><i class="fa-brands fa-instagram social-four"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Get In Touch -->
+    <section class="Torch">
+        <div class="contact-head">
+            <h1>Get In Touch</h1>
+        </div>
+
+        <div class="forms">
+            <div class="form">
+                <input type="text" placeholder="Name" required><br>
+                <input type="email" placeholder="Email" required>
+            </div>
+
+            <div class="but">
+                <textarea name="" id="" cols="10" rows="10" placeholder="Message"></textarea>
+            </div>
+
+
+            <a href=""><button>Send Message</button></a>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="Contact-Us">
+        <div class="cont-head">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="contacts">
+            <div class="contact">
+                <h1>Phone</h1>
+                <p>123-456-7890</p>
+            </div>
+            <div class="contact">
+                <h1>Email</h1>
+                <p>info@hairhive.com</p>
+            </div>
+        </div>
+
+        <div class="Us">
+            <div class="contact">
+                <h1>Address</h1>
+                <p>Nigeria</p>
+            </div>
+            <div class="contact">
+                <h1>Working Hours</h1>
+                <p>Mon-Fri: 9am-6pm</p>
+            </div>
+        </div>
+
+        <div class="map">
+
+        </div>
+    </section>
+
+    <footer>
+        <p>2024 Hair Hive. All Rights Reserved</p>
+    </footer>
+
+
+    <!-- Boostrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Home.js"></script>
+</body>
+
+</html>
